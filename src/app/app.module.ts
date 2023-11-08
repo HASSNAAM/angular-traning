@@ -9,6 +9,10 @@ import { CoursesComponent } from './courses/courses.component';
 
 
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
+import { FormComponent } from './form/form.component';
+
+
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -16,14 +20,17 @@ import { TooltipModule } from 'ngx-bootstrap/tooltip';
     AppComponent,
     NavBarComponent,
     SideBarComponent,
-    CoursesComponent
+    CoursesComponent,
+    FormComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    TooltipModule.forRoot()
+    FormsModule,
+    ReactiveFormsModule,
+    TooltipModule.forRoot(),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
