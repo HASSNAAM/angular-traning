@@ -13,6 +13,7 @@ import { FormComponent } from './form/form.component';
 
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { TableComponent } from './table/table.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     SideBarComponent,
     CoursesComponent,
     FormComponent,
+    TableComponent,
   ],
   imports: [
     BrowserModule,
