@@ -15,6 +15,7 @@ import { FormComponent } from './form/form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TableComponent } from './table/table.component';
 import { NewTableComponent } from './new-table/new-table.component';
+import { Task6Component } from './task6/task6.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { NewTableComponent } from './new-table/new-table.component';
     FormComponent,
     TableComponent,
     NewTableComponent,
+    Task6Component,
   ],
   imports: [
     BrowserModule,

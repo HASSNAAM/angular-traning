@@ -1,0 +1,6 @@
+<p>task6 works!</p>
+<div class="text-center">
+  <input [(ngModel)]="exampleProperty" #inputRef /><br><br>
+  <div>{{exampleProperty}}</div><br>
+  <button (click)="logInputValue(inputRef.value)" class='btn btn-success'>Log Input Value</button>
+</div>
