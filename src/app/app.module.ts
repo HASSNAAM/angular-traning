@@ -17,6 +17,7 @@ import { TableComponent } from './table/table.component';
 import { NewTableComponent } from './new-table/new-table.component';
 import { Task6Component } from './task6/task6.component';
 import { Task7Component } from './task6/task7/task7.component';
+import { ProductsComponent } from './products/products.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { Task7Component } from './task6/task7/task7.component';
     NewTableComponent,
     Task6Component,
     Task7Component,
+    ProductsComponent,
   ],
   imports: [
     BrowserModule,
